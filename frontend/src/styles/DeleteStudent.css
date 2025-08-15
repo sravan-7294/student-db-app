@@ -1,0 +1,41 @@
+/* src/styles/DeleteStudent.css */
+
+.delete-form {
+  max-width: 300px;
+  margin: auto;
+  padding: 15px;
+  background: #ffebee;
+  border: 1px solid #ef9a9a;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+}
+
+.delete-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #b71c1c;
+}
+
+.delete-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ef9a9a;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.delete-form button {
+  background-color: #b71c1c;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete-form button:hover {
+  background-color: #7f0000;
+}

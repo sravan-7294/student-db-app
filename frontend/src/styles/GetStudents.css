@@ -1,0 +1,32 @@
+/* src/styles/GetStudents.css */
+
+.students-table {
+  max-width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background: #e8f5e9;
+  border: 1px solid #81c784;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.students-table th,
+.students-table td {
+  border: 1px solid #81c784;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.students-table th {
+  background-color: #388e3c;
+  color: white;
+}
+
+.students-table tr:nth-child(even) {
+  background-color: #c8e6c9;
+}
+
+.students-table tr:hover {
+  background-color: #a5d6a7;
+}

@@ -1,0 +1,87 @@
+/* src/styles/GetStudent.css */
+
+/* Container */
+.get-student {
+  max-width: 450px;
+  margin: 20px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form styling */
+.get-student form {
+  background-color: #eef6fc;
+  border: 1px solid #a8c5e5;
+  padding: 25px 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 64, 128, 0.1);
+}
+
+.get-student h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+.get-student label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #1a3d6d;
+}
+
+.get-student input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #a8c5e5;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.get-student button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.get-student button:hover {
+  background-color: #004a99;
+  box-shadow: 0 4px 10px rgba(0, 74, 153, 0.5);
+}
+
+/* Student details card */
+.student-details {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #c8e6c9;
+  border: 1px solid #81c784;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-details h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2e7d32;
+  text-align: center;
+}
+
+.student-details p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #1b5e20;
+}
+
+.student-details p strong {
+  color: #2e7d32;
+  width: 120px;
+  display: inline-block;
+}
